@@ -21,7 +21,7 @@ if P == "y":
     r = input("DO YOU WANT TO TRY THE NEXT QUESTION? (Y/N) ")
     r = r.lower()
     if r == "y":
-        k = int(input("QUESTION 2: How many players are there in a poland soccar game? "))
+        k = int(input("QUESTION 2: How many players are there in a Poland soccar game? "))
         if k ==26:
             print("YOUR ANSWER IS CORRECT")
             total += 20000
