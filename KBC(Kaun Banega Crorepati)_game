@@ -1,0 +1,106 @@
+print("WELCOME TO KAUN BANEGA CROREPATI")
+total = 0
+P = input("ARE YOU READY???? (Y/N) ")
+P = P.lower()
+
+if P == "y":
+    print("LET'S GET STARTED")
+    print("YOU WON-", total, "RUPEES")
+    
+    # Question 1_______________________________________________________
+    Q = int(input("QUESTION 1: How many states are there in India? "))
+    if Q == 28:
+        print("YOUR ANSWER IS CORRECT")
+        total += 20000
+    else:
+        print("YOU LOST THE GAME")
+        print("THANK YOU FOR PLAYING")
+        exit()
+    print("YOU WON-", total, "RUPEES")
+    # Question 2___________________________________________________________
+    r = input("DO YOU WANT TO TRY THE NEXT QUESTION? (Y/N) ")
+    r = r.lower()
+    if r == "y":
+        k = int(input("QUESTION 2: How many players are there in a poland soccar game? "))
+        if k ==26:
+            print("YOUR ANSWER IS CORRECT")
+            total += 20000
+        else:
+            print("YOU LOST THE GAME")
+            print("THANK YOU FOR PLAYING")
+            exit()
+        print("YOU WON-", total, "RUPEES")
+    else:
+        print("THANK YOU FOR PLAYING")
+        exit()
+
+    # Question 3__________________________________________________________________
+    z = input("DO YOU WANT TO TRY THE NEXT QUESTION? (Y/N) ")
+    z = z.lower()
+    if z == "y":
+        h = (input("""Who is the author of “God of Small Things”?
+
+a) Gabriel Garcia Marquez
+b) Aravind Adiga
+c) Arundhati Roy
+d) Victor Hugo\n"""))
+        if h =="c" :
+            print("YOUR ANSWER IS CORRECT")
+            total += 20000
+        else:
+            print("YOU LOST THE GAME")
+            print("THANK YOU FOR PLAYING")
+            exit()
+        print("YOU WON-", total, "RUPEES")
+    else:
+        print("THANK YOU FOR PLAYING")
+        exit()
+
+    # Question 4___________________________________________________________________
+    x = input("DO YOU WANT TO TRY THE NEXT QUESTION? (Y/N) ")
+    x = x.lower()
+    if x == "y":
+        j = input("""QUESTION 4: What is the “Fear of Darkness” called?
+
+a) Nyctophobia
+b) Ablutophobia
+c) Ophidiophobia
+d) Arachnophobia\n""")
+        j = j.lower()
+        if j == "a":
+            print("YOUR ANSWER IS CORRECT")
+            total += 20000
+        else:
+            print("YOU LOST THE GAME")
+            print("THANK YOU FOR PLAYING")
+            exit()
+        print("YOU WON-", total, "RUPEES")
+    else:
+        print("THANK YOU FOR PLAYING")
+        exit()
+
+    # Question 5__________________________________________________________________
+    w = input("DO YOU WANT TO TRY THE NEXT QUESTION? (Y/N) ")
+    w = w.lower()
+    if w == "y":
+        d = input("""QUESTION 5: Hyderabad is the temporary capital of which state?
+a) Telangana
+b) Andhra Pradesh
+c) Arunachal Pradesh
+d) All of the above\n""")
+        d = d.lower()
+        if d == "a":
+            print("YOUR ANSWER IS CORRECT")
+            total += 20000
+        else:
+            print("YOU LOST THE GAME")
+            print("THANK YOU FOR PLAYING")
+            exit()
+        print("YOU WON-", total, "RUPEES\n")
+        print("YOU HAVE ANSWERED ALL THE QUESTIONS CORRECTLY\n")
+        print("YOU WON KBC!!!!\tCONGRATULATIONS! IT'S CELEBRATION TIME\n")
+        print("THANK YOU FOR PLAYING")
+    else:
+        print("THANK YOU FOR PLAYING")
+else:
+    print("BYE")
