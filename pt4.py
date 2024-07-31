@@ -1,4 +1,4 @@
-#Match case
+#Match case- this works same as switch statement used in various other languages like c++
 
 x =int(input("Enter a value from 1 to 100"))
 match x:
