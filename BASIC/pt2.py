@@ -1,3 +1,5 @@
+#counter function
+
 from collections import Counter
 
 l = [1, 2, 3, 2, 1, 3, 4, 5, 5, 3, 2, 4, 3, 2]
